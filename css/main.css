@@ -671,18 +671,7 @@ a {
 	background: url('../img/header-bg_SE.jpg') top no-repeat;
 	padding-bottom: 155px;
 }
-
-@media (max-width: 281px) {
-  body {
-  	font-size: 14px;
-  }
-
-  .header .content {
-	background: url('../img/header-bg_small.jpg') top no-repeat;
-	padding-bottom: 155px;
-}
-
-.main-title {
+	.main-title {
 	font-size: 24px;
 }
 
@@ -793,4 +782,15 @@ a {
   .footer-phone, .footer-mail {
   	font-size: 14px;
   }
+}
+
+@media (max-width: 281px) {
+  body {
+  	font-size: 14px;
+  }
+
+  .header .content {
+	background: url('../img/header-bg_small.jpg') top no-repeat;
+	padding-bottom: 155px;
+}
 }
