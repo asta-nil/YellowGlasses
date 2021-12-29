@@ -653,6 +653,15 @@ a {
 	background: url('../img/email.png');
 }
 
+@media (max-width: 376px) {
+
+  .header .content {
+	background: url('../img/header-bg_md.jpg') top no-repeat;
+  }
+
+}
+
+
 @media (max-width: 321px) {
   body {
   	font-size: 14px;
